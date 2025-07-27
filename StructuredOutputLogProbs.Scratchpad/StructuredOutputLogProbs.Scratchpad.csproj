@@ -13,4 +13,8 @@
         </None>
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\StructuredOutputLogProbs\StructuredOutputLogProbs.csproj" />
+    </ItemGroup>
+
 </Project>

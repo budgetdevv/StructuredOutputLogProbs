@@ -65,12 +65,54 @@ namespace StructuredOutputLogProbs.Scratchpad
             public readonly double AverageProbability = averageProbability;
         }
 
+        private const string JSON_FILE_PATH = "llmresponse.json";
+
         private static void Main(string[] args)
         {
-            const string filePath = "llmresponse.json";
+            TestLib();
+        }
 
+        private static void TestLib()
+        {
             var response = JsonSerializer.Deserialize<LLMResponse>(
-                File.ReadAllText(filePath)
+                File.ReadAllText(JSON_FILE_PATH)
+            );
+
+            var jsonText = response.Content;
+
+            var logProbs = response
+                .ContentTokenLogProbabilities
+                .Select(x => new StructuredOutputLogProbs.TokenLogProb(
+                    x.LogProbability,
+                    Convert.FromBase64String(x.Base64EncodedUTF8Bytes)
+                ))
+                .ToArray();
+
+            StructuredOutputLogProbs.GetFieldProbabilities(
+                jsonText,
+                logProbs,
+                out var fieldProbs
+            );
+
+            Console.WriteLine("Field Probabilities:");
+
+            foreach (var (fieldName, probability) in fieldProbs)
+            {
+                Console.WriteLine(
+                $"""
+                Current Field: {fieldName}
+
+                Joint Probability: {probability.JointProbability:F6}
+
+                Average Probability: {probability.AverageProbability:F6}
+                """);
+            }
+        }
+
+        private static void Experimentation()
+        {
+            var response = JsonSerializer.Deserialize<LLMResponse>(
+                File.ReadAllText(JSON_FILE_PATH)
             );
 
             var jsonText = response.Content;
