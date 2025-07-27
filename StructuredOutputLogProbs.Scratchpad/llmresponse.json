@@ -1,0 +1,329 @@
+{
+  "Content": "{\"FulfillsCriterion\":true,\"Justification\":\"The image shows three individuals, which qualifies as a group selfie. Additionally, the TP logo is clearly visible in the background. Therefore, the image fulfills the criterion of being a group selfie containing the TP logo.\"}",
+  "ContentTokenLogProbabilities": [
+    {
+      "LogProbability": 0,
+      "Utf8Bytes": "eyI=",
+      "TopLogProbabilities": [],
+      "Token": "{\""
+    },
+    {
+      "LogProbability": 0,
+      "Utf8Bytes": "Rg==",
+      "TopLogProbabilities": [],
+      "Token": "F"
+    },
+    {
+      "LogProbability": 0,
+      "Utf8Bytes": "dWxm",
+      "TopLogProbabilities": [],
+      "Token": "ulf"
+    },
+    {
+      "LogProbability": 0,
+      "Utf8Bytes": "aWxscw==",
+      "TopLogProbabilities": [],
+      "Token": "ills"
+    },
+    {
+      "LogProbability": 0,
+      "Utf8Bytes": "Q3JpdGVyaW9u",
+      "TopLogProbabilities": [],
+      "Token": "Criterion"
+    },
+    {
+      "LogProbability": 0,
+      "Utf8Bytes": "Ijo=",
+      "TopLogProbabilities": [],
+      "Token": "\":"
+    },
+    {
+      "LogProbability": -0.00002188868,
+      "Utf8Bytes": "dHJ1ZQ==",
+      "TopLogProbabilities": [],
+      "Token": "true"
+    },
+    {
+      "LogProbability": 0,
+      "Utf8Bytes": "LCI=",
+      "TopLogProbabilities": [],
+      "Token": ",\""
+    },
+    {
+      "LogProbability": 0,
+      "Utf8Bytes": "SnVzdA==",
+      "TopLogProbabilities": [],
+      "Token": "Just"
+    },
+    {
+      "LogProbability": 0,
+      "Utf8Bytes": "aWZpY2F0aW9u",
+      "TopLogProbabilities": [],
+      "Token": "ification"
+    },
+    {
+      "LogProbability": 0,
+      "Utf8Bytes": "Ijoi",
+      "TopLogProbabilities": [],
+      "Token": "\":\""
+    },
+    {
+      "LogProbability": -0.00018613665,
+      "Utf8Bytes": "VGhl",
+      "TopLogProbabilities": [],
+      "Token": "The"
+    },
+    {
+      "LogProbability": -0.00019269285,
+      "Utf8Bytes": "IGltYWdl",
+      "TopLogProbabilities": [],
+      "Token": " image"
+    },
+    {
+      "LogProbability": -0.43732607,
+      "Utf8Bytes": "IHNob3dz",
+      "TopLogProbabilities": [],
+      "Token": " shows"
+    },
+    {
+      "LogProbability": -0.43007788,
+      "Utf8Bytes": "IHRocmVl",
+      "TopLogProbabilities": [],
+      "Token": " three"
+    },
+    {
+      "LogProbability": -0.18026838,
+      "Utf8Bytes": "IGluZGl2aWR1YWxz",
+      "TopLogProbabilities": [],
+      "Token": " individuals"
+    },
+    {
+      "LogProbability": -1.214872,
+      "Utf8Bytes": "LA==",
+      "TopLogProbabilities": [],
+      "Token": ","
+    },
+    {
+      "LogProbability": -0.26734596,
+      "Utf8Bytes": "IHdoaWNo",
+      "TopLogProbabilities": [],
+      "Token": " which"
+    },
+    {
+      "LogProbability": -0.23321134,
+      "Utf8Bytes": "IHF1YWxpZmllcw==",
+      "TopLogProbabilities": [],
+      "Token": " qualifies"
+    },
+    {
+      "LogProbability": -0.42882767,
+      "Utf8Bytes": "IGFz",
+      "TopLogProbabilities": [],
+      "Token": " as"
+    },
+    {
+      "LogProbability": -0.0000048425554,
+      "Utf8Bytes": "IGE=",
+      "TopLogProbabilities": [],
+      "Token": " a"
+    },
+    {
+      "LogProbability": -0.0000029352968,
+      "Utf8Bytes": "IGdyb3Vw",
+      "TopLogProbabilities": [],
+      "Token": " group"
+    },
+    {
+      "LogProbability": -0.011192358,
+      "Utf8Bytes": "IHNlbGZpZQ==",
+      "TopLogProbabilities": [],
+      "Token": " selfie"
+    },
+    {
+      "LogProbability": -0.17761503,
+      "Utf8Bytes": "Lg==",
+      "TopLogProbabilities": [],
+      "Token": "."
+    },
+    {
+      "LogProbability": -0.23258226,
+      "Utf8Bytes": "IEFkZGl0aW9uYWxseQ==",
+      "TopLogProbabilities": [],
+      "Token": " Additionally"
+    },
+    {
+      "LogProbability": -5.5122365e-7,
+      "Utf8Bytes": "LA==",
+      "TopLogProbabilities": [],
+      "Token": ","
+    },
+    {
+      "LogProbability": -0.17647025,
+      "Utf8Bytes": "IHRoZQ==",
+      "TopLogProbabilities": [],
+      "Token": " the"
+    },
+    {
+      "LogProbability": -0.2653426,
+      "Utf8Bytes": "IFRQ",
+      "TopLogProbabilities": [],
+      "Token": " TP"
+    },
+    {
+      "LogProbability": -0.010313389,
+      "Utf8Bytes": "IGxvZ28=",
+      "TopLogProbabilities": [],
+      "Token": " logo"
+    },
+    {
+      "LogProbability": -0.01682824,
+      "Utf8Bytes": "IGlz",
+      "TopLogProbabilities": [],
+      "Token": " is"
+    },
+    {
+      "LogProbability": -0.20583472,
+      "Utf8Bytes": "IGNsZWFybHk=",
+      "TopLogProbabilities": [],
+      "Token": " clearly"
+    },
+    {
+      "LogProbability": -0.028350303,
+      "Utf8Bytes": "IHZpc2libGU=",
+      "TopLogProbabilities": [],
+      "Token": " visible"
+    },
+    {
+      "LogProbability": -0.16780922,
+      "Utf8Bytes": "IGlu",
+      "TopLogProbabilities": [],
+      "Token": " in"
+    },
+    {
+      "LogProbability": -0.0010623443,
+      "Utf8Bytes": "IHRoZQ==",
+      "TopLogProbabilities": [],
+      "Token": " the"
+    },
+    {
+      "LogProbability": -0.17435212,
+      "Utf8Bytes": "IGJhY2tncm91bmQ=",
+      "TopLogProbabilities": [],
+      "Token": " background"
+    },
+    {
+      "LogProbability": -0.7514657,
+      "Utf8Bytes": "Lg==",
+      "TopLogProbabilities": [],
+      "Token": "."
+    },
+    {
+      "LogProbability": -0.08016779,
+      "Utf8Bytes": "IFRoZXJlZm9yZQ==",
+      "TopLogProbabilities": [],
+      "Token": " Therefore"
+    },
+    {
+      "LogProbability": -0.0000150940705,
+      "Utf8Bytes": "LA==",
+      "TopLogProbabilities": [],
+      "Token": ","
+    },
+    {
+      "LogProbability": -0.030625122,
+      "Utf8Bytes": "IHRoZQ==",
+      "TopLogProbabilities": [],
+      "Token": " the"
+    },
+    {
+      "LogProbability": -0.0005238425,
+      "Utf8Bytes": "IGltYWdl",
+      "TopLogProbabilities": [],
+      "Token": " image"
+    },
+    {
+      "LogProbability": -0.4779374,
+      "Utf8Bytes": "IGZ1bGZpbGxz",
+      "TopLogProbabilities": [],
+      "Token": " fulfills"
+    },
+    {
+      "LogProbability": -0.001711117,
+      "Utf8Bytes": "IHRoZQ==",
+      "TopLogProbabilities": [],
+      "Token": " the"
+    },
+    {
+      "LogProbability": -0.00020759332,
+      "Utf8Bytes": "IGNyaXRlcmlvbg==",
+      "TopLogProbabilities": [],
+      "Token": " criterion"
+    },
+    {
+      "LogProbability": -0.024097934,
+      "Utf8Bytes": "IG9m",
+      "TopLogProbabilities": [],
+      "Token": " of"
+    },
+    {
+      "LogProbability": -0.0030902512,
+      "Utf8Bytes": "IGJlaW5n",
+      "TopLogProbabilities": [],
+      "Token": " being"
+    },
+    {
+      "LogProbability": -3.1281633e-7,
+      "Utf8Bytes": "IGE=",
+      "TopLogProbabilities": [],
+      "Token": " a"
+    },
+    {
+      "LogProbability": 0,
+      "Utf8Bytes": "IGdyb3Vw",
+      "TopLogProbabilities": [],
+      "Token": " group"
+    },
+    {
+      "LogProbability": 0,
+      "Utf8Bytes": "IHNlbGZpZQ==",
+      "TopLogProbabilities": [],
+      "Token": " selfie"
+    },
+    {
+      "LogProbability": -0.021171173,
+      "Utf8Bytes": "IGNvbnRhaW5pbmc=",
+      "TopLogProbabilities": [],
+      "Token": " containing"
+    },
+    {
+      "LogProbability": 0,
+      "Utf8Bytes": "IHRoZQ==",
+      "TopLogProbabilities": [],
+      "Token": " the"
+    },
+    {
+      "LogProbability": 0,
+      "Utf8Bytes": "IFRQ",
+      "TopLogProbabilities": [],
+      "Token": " TP"
+    },
+    {
+      "LogProbability": -1.9361265e-7,
+      "Utf8Bytes": "IGxvZ28=",
+      "TopLogProbabilities": [],
+      "Token": " logo"
+    },
+    {
+      "LogProbability": 0,
+      "Utf8Bytes": "LiI=",
+      "TopLogProbabilities": [],
+      "Token": ".\""
+    },
+    {
+      "LogProbability": 0,
+      "Utf8Bytes": "fQ==",
+      "TopLogProbabilities": [],
+      "Token": "}"
+    }
+  ]
+}
