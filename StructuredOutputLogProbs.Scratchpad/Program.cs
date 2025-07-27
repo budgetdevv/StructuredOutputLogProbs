@@ -82,13 +82,13 @@ namespace StructuredOutputLogProbs.Scratchpad
 
             var logProbs = response
                 .ContentTokenLogProbabilities
-                .Select(x => new StructuredOutputLogProbs.TokenLogProb(
+                .Select(x => new StructuredOutputLogProbsHelpers.TokenLogProb(
                     x.LogProbability,
                     Convert.FromBase64String(x.Base64EncodedUTF8Bytes)
                 ))
                 .ToArray();
 
-            StructuredOutputLogProbs.GetFieldProbabilities(
+            StructuredOutputLogProbsHelpers.GetFieldProbabilities(
                 jsonText,
                 logProbs,
                 out var fieldProbs

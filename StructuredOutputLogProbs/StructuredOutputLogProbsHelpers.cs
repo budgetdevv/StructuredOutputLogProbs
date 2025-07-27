@@ -8,7 +8,7 @@ using System.Diagnostics;
 
 namespace StructuredOutputLogProbs
 {
-    public static class StructuredOutputLogProbs
+    public static class StructuredOutputLogProbsHelpers
     {
         public readonly struct TokenLogProb(double logProbability, ReadOnlyMemory<byte> tokenUtf8Bytes)
         {
